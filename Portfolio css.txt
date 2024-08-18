@@ -1,0 +1,154 @@
+/* Reset some basic styles */
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 50;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+.body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /*background-color: aqua;*/
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: silver;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 30px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#about img {
+    width: 250px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio {
+    color: black;
+    /*font-style: italic;*/
+    max-width: 1100px;
+    transition: none;
+}
+
+/* Skills Section */
+.skills {
+    background: silver;
+    padding: 50px 0;
+}
+
+#skills .skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#skills .skills-list li {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 0;
+}
+
+#projects .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#projects .project {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    text-align: center;
+}
+
+#projects .project img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Resume Section */
+#resume {
+    text-align: center;
+    padding: 50px 0;
+    display: inline;
+}
+
+.btn {
+    background: aqua;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+    text-align: center;
+    display: inline;   
+}
+
+/* Footer */
+footer {
+    background: silver;
+    color: black;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+ /*Responsive Design 
+@media (max-width: 768px) {
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about img {
+        margin: 0 auto 20px;
+    }
+
+    #projects .project {
+        flex: 1 1 100%;
+    }
+}*/
